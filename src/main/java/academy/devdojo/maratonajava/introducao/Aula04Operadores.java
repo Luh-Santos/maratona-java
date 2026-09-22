@@ -14,5 +14,23 @@ public class Aula04Operadores {
         System.out.println(numero01 * numero02);
         System.out.println("O resultado de uma operação de 2 números inteiros sempre será um número inteiro " + numero01 / numero02);
         System.out.println(numero03 / numero04);
+
+        // Resto da divisão %
+        int resto = 20 % 2;
+        System.out.println("resto: " + resto);
+
+        // Operadores relacionais, retornam booleano. Menor que < Maior que > Menor ou igual <= Maior ou igual >= Igual == Diferente !=
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteDez = 10 != 10;
+        boolean isDezDiferenteVinte = 10 != 20;
+        System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte " + isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " + isDezIgualVinte);
+        System.out.println("isDezIgualDez " + isDezIgualDez);
+        System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
+        System.out.println("isDezDiferenteVinte " + isDezDiferenteVinte);
     }
 }
