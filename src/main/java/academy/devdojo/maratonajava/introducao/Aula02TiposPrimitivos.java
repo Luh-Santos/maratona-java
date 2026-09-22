@@ -11,10 +11,15 @@ public class Aula02TiposPrimitivos {
         short idadeShort = 32000;
         boolean verdadeiro = true;
         boolean falso = false;
-        char caractere = 87;
+        char caractereASCII = 87;
+        char caractere = 'A';
+        // String não é um tipo primitivo, é um tipo de referência
+        String nome = "Luísa";
+
         System.out.println("A idade é " + idade + " anos");
         System.out.println(verdadeiro);
-        System.out.println("W na tabela ASCII é 87: " + caractere);
+        System.out.println("W na tabela ASCII é 87: " + caractereASCII);
+        System.out.println("Oi, meu nome é " + nome);
 
         /*
             Casting: Forçar o valor de uma variável em outra
