@@ -46,5 +46,27 @@ public class Aula04Operadores {
         float valorPlaystation = 5000;
         boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
         System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
+
+        // Operadores Atribuição. Igual = Mais igual += Menos igual -= Multiplicação igual *= Divisão igual /= Resto igual %=
+        double bonus = 1800;
+        // bonus = bonus + 1000
+        bonus += 1000; // 2800
+        bonus -= 1000; // 1800
+        bonus *= 2; // 3600
+        bonus /= 2; // 1800
+        bonus %= 2; // 0
+        System.out.println("Bônus " + bonus);
+
+        // Operadores unários. Incremento ++ Decremento --
+        int contadorPositivo = 0;
+        int contadorNegativo = 0;
+        contadorPositivo++; //contadorPositivo = contadorPositivo + 1;
+        contadorNegativo--; // contadorNegativo = contadorNegativo - 1;
+        int contadorPositivoAntes = 0;
+        int contadorPositivoDepois = 0;
+        System.out.println("Contador Positivo " + contadorPositivo);
+        System.out.println("Contador Negativo " + contadorNegativo);
+        System.out.println("Contador Positivo depois " + contadorPositivoDepois++);
+        System.out.println("Contador Positivo antes " + ++contadorPositivoAntes);
     }
 }
