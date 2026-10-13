@@ -24,5 +24,17 @@ public class Aula07Arrays02 {
         System.out.println("Char: " + exemploChar[0]);
         System.out.println("Boolean: " + exemploBoolean[0]);
         System.out.println("String: " + exemploString[0]);
+
+        String[] nomes =  new String[3];
+        nomes[0] = "Charmander";
+        nomes[1] = "Bulbassauro";
+        nomes[2] = "Squirtle";
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.println("Nome: " + nomes[i]);
+        }
+
+        nomes = new String[5]; // Ao fazer isso eu faço referência a um novo espaço de memória e perco o acesso ao espaço de memória anterior
+        System.out.println("Nomes[] depois de usar new: " + nomes[0]);
     }
 }
