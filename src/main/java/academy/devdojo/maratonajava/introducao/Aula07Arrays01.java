@@ -5,7 +5,6 @@ public class Aula07Arrays01 {
         // Variáveis arrays são sempre do tipo reference, não são do tipo primitivo
         // Arrays são objetos
         // Variáveis tipo reference podem iniciar como null, primitivas não
-        // Ao criar Arrays sem nada dentro, existe um padrão, tipos primitivos numéricos iniciam com 0 ou 0.0, se for String inicia nulo
         int [] idades = new int[3]; // Ao declarar um array precisa já dizer quantos espaços de memória ele vai ter, nesse caso 3
         // pode declarar tbm como: int idades[];
 
