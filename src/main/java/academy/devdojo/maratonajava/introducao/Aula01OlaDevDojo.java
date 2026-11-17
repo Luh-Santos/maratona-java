@@ -5,7 +5,7 @@ package academy.devdojo.maratonajava.introducao;
  * Ctrl + Alt + Q para renderizar esse comentário
  */
 public class Aula01OlaDevDojo {
-    // Comentário linha
+    // Comentário linha ctrl + /
 
     /*
     Comentário
