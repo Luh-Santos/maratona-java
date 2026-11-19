@@ -14,6 +14,7 @@ public class Aula01OlaDevDojo {
     Linhas
      */
 
+    // Ctrl alt L pra formatar
     public static void main(String[] args) {
         System.out.println("Olá Mundo");
     }
